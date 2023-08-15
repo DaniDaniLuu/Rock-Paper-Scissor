@@ -5,9 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@700&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="overallWrap">
+        <h1 class="header">Rock, Paper, Scissor!</h1>
+        <div class="selectionWrap">
+            <div class = 'person'>
+                <div class="name">Player</div>
+                <div class = "icon">
+                    <img src="images/user.png">
+                    <div class="scoreText" id="playerScoreText">Score: 0</div>
+                </div>
+
+                <div class = "options">
+                    <div class="buttonBox playerButton Rock">
+                        <div class="buttonText">Rock</div>
+                        <img src="images/rock.png" class="buttons">
+                    </div>
+                    <div class="buttonBox playerButton Paper">
+                        <div class="buttonText">Paper</div>
+                        <img src="images/paper.png" class="buttons">
+                    </div>
+                    <div class="buttonBox playerButton Scissor">
+                        <div class="buttonText">Scissor</div>
+                        <img src ="images/scissors.png" class="buttons">
+                    </div>
+                </div>
+            </div>
+
+            <div class = 'computer'>
+
+                <div class="name">Computer</div>
+                <div class = "icon">
+                    <img src="images/robot.png">
+                    <div class="scoreText" id="computerScoreText">Score: 0</div>
+                </div>
+
+                <div class = "options">
+                    <div class="buttonBox computerButton Rock">
+                        <div class="buttonText">Rock</div>
+                        <img src="images/rock.png" class="buttons">
+                    </div>
+                    <div class="buttonBox computerButton Paper">
+                        <div class="buttonText">Paper</div>
+                        <img src="images/paper.png" class="buttons">
+                    </div>
+                    <div class="buttonBox computerButton Scissor">
+                        <div class="buttonText">Scissor</div>
+                        <img src ="images/scissors.png" class="buttons">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </body>
 </html>

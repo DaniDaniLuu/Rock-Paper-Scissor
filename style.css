@@ -1,3 +1,101 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 body{
-    background-image: 
+    display:flex;
+    flex-direction: column;
+    background-image: url(images/background.jpg);
+    box-sizing: border-box;
+    font-family: "Handjet";
+}
+
+.overallWrap{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.header{
+    color:white;
+    font-size:60px;
+    margin:0px;
+    margin-bottom:40px;
+}
+
+.selectionWrap{
+    display:flex;
+    gap:50px;
+}
+
+.computer,
+.person{
+    display: flex;
+    flex-direction: column;
+    border: 5px black solid;
+    background-color: rgb(78, 75, 75);
+    border-radius: 15px;
+    width: fit-content;
+    padding: 20px;
+}
+
+.name{
+    text-align: center;
+    color:white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.options{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap:15px;
+}
+
+.icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap:20px;
+}
+
+.scoreText{
+    text-align: center;
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.buttonBox{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 60px;
+}
+
+.buttonText{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+img.buttons{
+    max-width: 100%;
+    height: auto;
+}
+
+.icon img{
+    max-width: 60px;
+    height: auto;
+}
+
+.red{
+    background-color: rgb(221, 134, 134);
 }
